@@ -1,10 +1,10 @@
 # Swagger Editor and UI on Local Environment
 
-**Don't push api documents to you remote repositories.**
+**Don't push api documents to your remote repositories.**
 
 ## Initialization
 
-1. Prevent you from pushing to your remote repositories accidently
+### 1. Prevent you from pushing to your remote repositories accidently
 
 Should write down the following scripts on `.git/hooks/pre-push`.
 And have to prohibit you from push api documents to your remote repositories.
@@ -19,7 +19,7 @@ do
 done
 ```
 
-2. Fetch submodules about swagger-editor.
+### 2. Fetch submodules about swagger-editor.
 
 ```
 git submodule update --init
