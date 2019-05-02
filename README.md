@@ -7,7 +7,8 @@
 ### 1. Prevent you from pushing to your remote repositories accidentally
 
 Should write down the following scripts on `.git/hooks/pre-push`.
-And have to prohibit you from push api documents to your remote repositories.
+
+And then, prohibit you from pushing api documents to your remote repositories.
 
 ```
 #!/bin/bash
@@ -19,9 +20,9 @@ do
 done
 ```
 
-Finally, modify privileges for executing scripts to 755.
+Finally, modify file permissions for executing scripts to 755.
 
-### 2. Fetch submodules about swagger-editor
+### 2. Fetch git submodule about swagger-editor
 
 ```
 git submodule update --init
